@@ -12,47 +12,47 @@
 ### Docker Commands
 
 #### Start services : 
- - **make start**
+ - make start
     
 #### Restart services : 
- - **make restart**
+ - make restart
     
 #### Stop services : 
- - **make stop**
+ - make stop
     
 ### Composer Commands
 
 #### Delete the generated files and clean the project folder : 
- - **make clean**
+ - make clean
     
 #### Composer install : 
- - **make install**
+ - make install
     
 #### Composer update
- - **make update**
+ - make update
     
 #### Composer require
- - **make require ${PACKAGE}**
+ - make require ${PACKAGE}
     
 #### Composer require --dev
- - **make require-dev ${PACKAGE}**
+ - make require-dev ${PACKAGE}
     
 #### Composer remove
- - **make remove ${PACKAGE}**    
+ - make remove ${PACKAGE}    
     
 #### Composer autoload       
- - **make autoload**
+ - make autoload
  
 ### Symfony Commands
 
 #### Clear cache
- - **make cache:clear**    
+ - make cache:clear    
       
 Details of each commands are in the **Makefile**.
 
 ### PHPStan Command 
- - **vendor/bin/phpstan analyse src**
+ - vendor/bin/phpstan analyse src
  
 ### PHPCodesniffer Commands
- - **vendor/bin/phpcs**
- - **vendor/bin/phpcbf**  
+ - vendor/bin/phpcs
+ - vendor/bin/phpcbf 
